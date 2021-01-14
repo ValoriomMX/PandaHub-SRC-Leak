@@ -1,0 +1,100 @@
+# JOIN ITEMS CONFIGURATION
+SERVER-SELECTOR:
+  ENABLE: true
+  NAME: "&cServer Selector"
+  ITEM:
+    GLOW: false
+    MATERIAL: "WATCH"
+    DATA: 0
+  SLOT: 5
+  LORE: {}
+LOBBY-SELECTOR:
+  ENABLE: true
+  NAME: "&cLobby Selector"
+  ITEM:
+    GLOW: false
+    MATERIAL: "NETHER_STAR"
+    DATA: 0
+  SLOT: 8
+  LORE: {}
+SHOW-PLAYER:
+  ENABLE: true
+  NAME: "&cShow Players"
+  ITEM:
+    GLOW: false
+    MATERIAL: "INK_SACK"
+    DATA: 8
+  SLOT: 9
+  LORE: {}
+HIDE-PLAYER:
+  ENABLE: true
+  NAME: "&cHide Players"
+  ITEM:
+    GLOW: false
+    MATERIAL: "INK_SACK"
+    DATA: 10
+  SLOT: 9
+  LORE: {}
+COSMETICS:
+  ENABLE: true
+  NAME: "&cCosmetics"
+  ITEM:
+    GLOW: false
+    MATERIAL: "ENDER_CHEST"
+    DATA: 0
+  SLOT: 3
+  LORE: {}
+ENDER-BUTT:
+  ENABLE: true
+  NAME: "&cEnderpearl"
+  ITEM:
+    GLOW: false
+    MATERIAL: "ENDER_PEARL"
+    DATA: 0
+  SLOT: 1
+  LORE: {}
+PVP-MODE:
+  ENABLE: true
+  ENTER:
+    NAME: "&aEnter PvP Mode"
+    ITEM:
+      GLOW: false
+      MATERIAL: "DIAMOND_SWORD"
+      DATA: 0
+    SLOT: 7
+    LORE: {}
+  LEAVE:
+    NAME: "&cLeave PvP Mode"
+    ITEM:
+      GLOW: false
+      MATERIAL: "REDSTONE"
+      DATA: 0
+    LORE: {}
+GADGET:
+  ENABLE: true
+  SLOT: 6
+  BOW-TELEPORT:
+    NAME: "&d&k::&r &d&5Bow Teleport &d&k::"
+  SNOWMAN:
+    NAME: "&7&k::&r &f&lSnowman &7&k::"
+INFORMATION:
+  ENABLE: true
+  NAME: "&cInformation"
+  ITEM:
+    GLOW: false
+    MATERIAL: "BOOK"
+    DATA: 0
+  SLOT: 2
+  LORE: {}
+  # Information Variables: {name}, {rank}, {rank-prefix}, {rank-suffix}
+  # Social Variables: {discord}, {store}, {teamspeak}, {twitter}, {website}
+  ON-INTERACT:
+    - "&7&m----*----------------*----"
+    - "&c&lServer Information"
+    - ""
+    - "&cTwitter&7: &f{twitter}"
+    - "&cDiscord&7: &f{discord}"
+    - "&cStore&7: &f{store}"
+    - "&cTeamspeak&7: &f{teamspeak}"
+    - "&cWebsite&7: &f{website}"
+    - "&7&m----*----------------*----"

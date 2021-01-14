@@ -1,0 +1,67 @@
+main: dev.panda.hub.Hub
+name: PandaHub
+authors: [Risas, TulioTriste]
+version: 3.0-SNAPSHOT
+commands:
+  pandahub:
+    description: PandaHub command help.
+    aliases: [phub]
+  discord:
+    description: Discord command.
+    aliases: [dc]
+  store:
+    description: Store command.
+  teamspeak:
+    description: Teamspeak command.
+    aliases: [ts, ts3]
+  twitter:
+    description: Twitter command.
+  website:
+    description: Website command.
+    aliases: [web]
+  fly:
+    description: Fly command.
+  setspawn:
+    description: Setspawn command.
+  spawn:
+    description: Spawn command.
+  build:
+    description: Build command.
+  teleport:
+    description: Teleport command.
+    aliases: [tp]
+  teleporthere:
+    description: TeleportHere command.
+    aliases: [s, tphere. teleporth]
+  teleportall:
+    description: TeleportAll command.
+    aliases: [tpall]
+  gamemode:
+    description: Gamemode command.
+    aliases: [gm]
+  message:
+    description: Message command.
+    aliases: [msg, m, tell]
+  reply:
+    description: Reply command.
+    aliases: [r]
+  skull:
+    description: Skull command.
+  togglescoreboard:
+    description: Toggle your scoreboard.
+    aliases: [togglescore, toggleboard, togglesb, tsb, tscoreboard, tscore]
+  togglesound:
+    description: Toggle your sound message.
+    aliases: [togglesd, toggles, tsound, tsd]
+  toggleprivatemessage:
+    description: Toggle your private messages.
+    aliases: [tpm, togglepm, tprivatemessage]
+  settings:
+    description: Settings command.
+    aliases: [setting]
+  play:
+    description: Join Queue.
+  leavequeue:
+    description: Exit to Queue.
+  pausequeue:
+    description: Pause Queue.

@@ -1,0 +1,121 @@
+# INVENTORY CONFIGURATION
+COSMETICS:
+  TITLE: "Cosmetics"
+  SIZE: 3
+  OUTFIT:
+    NAME: "&cOutfit"
+    ITEM:
+      GLOW: false
+      MATERIAL: "LEATHER_CHESTPLATE"
+      DATA: 0
+    SLOT: 12
+    LORE:
+      - "&7&oSelect your favorite outfit."
+  TRAIL:
+    NAME: "&cTrails"
+    ITEM:
+      GLOW: false
+      MATERIAL: "FIREWORK"
+      DATA: 0
+    SLOT: 14
+    LORE:
+      - "&7&oSelect your favorite trail."
+  GADGET:
+    NAME: "&cGadget"
+    ITEM:
+      GLOW: false
+      MATERIAL: "SADDLE"
+      DATA: 0
+    SLOT: 16
+    LORE:
+      - "&7&oSelect your favorite gadget."
+SETTINGS:
+  TITLE: "Settings"
+  SIZE: 5
+  SCOREBOARD:
+    NAME: "&cScoreboard"
+    ITEM:
+      GLOW: false
+      MATERIAL: "ITEM_FRAME"
+      DATA: 0
+    SLOT: 12
+    ENABLE-LORE:
+      - ""
+      - " &7➥ &aEnable"
+      - " &cDisable"
+      - ""
+      - "&7&oClick to toggle your scoreboard."
+    DISABLE-LORE:
+      - ""
+      - " &aEnable"
+      - " &7➥ &cDisable"
+      - ""
+      - "&7&oClick to toggle your scoreboard."
+  PRIVATE-MESSAGE:
+    NAME: "&cPrivate Message"
+    ITEM:
+      GLOW: false
+      MATERIAL: "JUKEBOX"
+      DATA: 0
+    SLOT: 14
+    ENABLE-LORE:
+      - ""
+      - " &7➥ &aEnable"
+      - " &cDisable"
+      - ""
+      - "&7&oClick to toggle your private message."
+    DISABLE-LORE:
+      - ""
+      - " &aEnable"
+      - " &7➥ &cDisable"
+      - ""
+      - "&7&oClick to toggle your private message."
+  SOUND-MESSAGE:
+    NAME: "&cSound Message"
+    ITEM:
+      GLOW: false
+      MATERIAL: "RECORD_4"
+      DATA: 0
+    SLOT: 16
+    ENABLE-LORE:
+      - ""
+      - " &7➥ &aEnable"
+      - " &cDisable"
+      - ""
+      - "&7&oClick to toggle your sound message."
+    DISABLE-LORE:
+      - ""
+      - " &aEnable"
+      - " &7➥ &cDisable"
+      - ""
+      - "&7&oClick to toggle your sound message."
+  COLOR-MESSAGE:
+    NAME: "&cColor Message"
+    ITEM:
+      GLOW: false
+      MATERIAL: "WOOL"
+      DATA: 0
+    SLOT: 30
+    LORE:
+      - ""
+      - "&7&oClick to select your color message."
+  COLOR-CHAT:
+    NAME: "&cColor Chat"
+    ITEM:
+      GLOW: false
+      MATERIAL: "WOOL"
+      DATA: 0
+    SLOT: 32
+    LORE:
+      - ""
+      - "&7&oClick to select your color chat."
+  TAG:
+    NAME: "&cTags"
+    ITEM:
+      GLOW: false
+      MATERIAL: "NAME_TAG"
+      DATA: 0
+    SLOT: 34
+    LORE:
+      - ""
+      - "&7&oClick to select your tag."

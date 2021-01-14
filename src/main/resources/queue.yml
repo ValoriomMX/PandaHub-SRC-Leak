@@ -1,0 +1,24 @@
+QUEUE: #ALL QUEUES WORK IN TICKS, 20 IS A 1 SECOND.
+  DELAY: 100
+  POSITION-INTERVAL: 300
+  SERVERS:
+    - 'hcf'
+    - 'kitmap'
+    - 'practice'
+  #If you put 0 in any range, that means that rank will send it directly.
+  #Remember put a specific rank name.
+  PRIORITY:
+    owner: 0
+    default: 10
+
+# QUEUE MESSAGES
+POSITION:
+  - ""
+  - "&eYour position is &6{position}/{size} &ein &6{server}"
+  - ""
+SEND: "&aYou has been successfully send."
+INVALID_QUEUE: "&cInvalid Queue."
+NOT_IN_QUEUE: "&cYou're not in any queue."
+LEAVE_QUEUE: "&aYou're left of {queue} Queue."
+PAUSED_QUEUE: "&cQueue {queue} has been paused."
+UNPAUSED_QUEUE: "&aQueue {queue} has been unpaused."

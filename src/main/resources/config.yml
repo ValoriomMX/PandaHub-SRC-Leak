@@ -1,0 +1,223 @@
+#========================================================#
+#______                    _         _   _         _     #
+#| ___ \                  | |       | | | |       | |    #
+#| |_/ /  __ _  _ __    __| |  __ _ | |_| | _   _ | |__  #
+#|  __/  / _` || '_ \  / _` | / _` ||  _  || | | || '_ \ #
+#| |    | (_| || | | || (_| || (_| || | | || |_| || |_) |#
+#\_|     \__,_||_| |_| \__,_| \__,_|\_| |_/ \__,_||_.__/ #
+#                                                        #
+#  Author: Risas                                         #
+#  Version: 3.0-SNAPSHOT                                 #
+#  Twitter: @RisasDev                                    #
+#  Discord: Risas#5366                                   #
+#                                                        #
+#========================================================#
+
+# LICENSE CONFIGURATION
+LICENSE: "LICENSE-HERE"
+
+# DEFAULT
+DEFAULT-COLOR-MESSAGE: "&7"
+DEFAULT-COLOR-CHAT: "&f"
+
+# NETWORK CONFIGURATION
+DISCORD: "discord.io/panda-community"
+STORE: "sellix.io/pandastore"
+TEAMSPEAK: "ts.pandamc.us"
+TWITTER: "@PandaPlugins"
+WEBSITE: "pandamc.us"
+
+# BLOCK COMMANDS
+BLOCK-COMMAND:
+  MESSAGE: '&fUnknown command. Type "/help" for help.'
+  COMMANDS:
+    - "pl"
+
+# JOIN CONFIGURATION
+# Variables: {discord}, {store}, {teamspeak}, {twitter}, {website}, {rank}, {rank-prefix}, {rank-suffix}
+# You can use PlaceholderAPI variable.
+JOIN-SOUND:
+  ENABLE: true
+  SOUND: "CAT_MEOW"
+
+JOIN-SPEED:
+  ENABLE: true
+  SPEED: 0.5
+
+JOIN-MESSAGE:
+  ENABLE: true
+  MESSAGE:
+    - "&7&m----*----------------*----"
+    - "&fWelcome &c{name} &fto &4&lPanda Community"
+    - ""
+    - "&cDiscord&7: &f{discord}"
+    - "&cStore&7: &f{store}"
+    - "&cTeamspeak&7: &f{teamspeak}"
+    - "&cTwitter&7: &f{twitter}"
+    - "&cWebsite&7: &f{website}"
+    - ""
+    - "&fYour currently rank is {rank-suffix}&f."
+    - "&7&m----*----------------*----"
+
+# CUSTOM CHAT CONFIGURATION
+# Variables: {name}, {rank}, {rank-prefix}, {rank-suffix}, {color_chat}, {message}
+# You can use PlaceholderAPI variable.
+ENABLE-CUSTOM-CHAT: true
+CUSTOM-CHAT: "{tag}{rank-prefix}{name}&7: {color_chat}{message}"
+
+# DOUBLE JUMP
+DOUBLE-JUMP:
+  ENABLE: true
+  EFFECT: "FLAME"
+  SOUND: "BAT_TAKEOFF"
+  VELOCITY: 1.5 #LIMIT 4.0
+
+# JUMP PAD
+JUMP-PAD:
+  ENABLE: true
+  BLOCK: "GOLD_PLATE"
+  SOUND: "FIZZ"
+  VELOCITY: 3.0 #LIMIT 4.0
+
+# MENUS
+FILL-MENUS: true
+FILL-ITEM:
+  NAME: "&7 "
+  MATERIAL: "STAINED_GLASS_PANE"
+  DATA: 0
+
+# BOOLEANS CONFIGURATION
+DISABLE-BLOCK-BREAK: true
+DISABLE-BLOCK-PLACE: true
+DISABLE-DROP-ITEM: true
+DISABLE-PICKUP-ITEM: true
+DISABLE-MOBS-SPAWN: true
+DISABLE-PVP: true
+DISABLE-CHAT: true
+DISABLE-PLAYER-SEE-IN-HUB: false
+
+ENABLE-BLOCK-BREAK-MESSAGE: false
+ENABLE-BLOCK-PLACE-MESSAGE: false
+ENABLE-DROP-ITEM-MESSAGE: false
+ENABLE-PICKUP-ITEM-MESSAGE: false
+ENABLE-PVP-MESSAGE: false
+ENABLE-CHAT-MESSAGE: true
+
+# SERVER-MANAGER CONFIGURATION
+SERVER-MANAGER:
+  SERVERS:
+    - 'ALL'
+    - 'hub-1'
+    - 'hub-2'
+    - 'hcf'
+    - 'practice'
+    - 'kitmap'
+  IP:
+    hub-1: "localhost"
+    hub-2: "localhost"
+    hcf: "localhost"
+    practice: "localhost"
+    kitmap: "localhost"
+  PORTS:
+    hub-1: 25566
+    hub-2: 25567
+    hcf: 25568
+    practice: 25569
+    kitmap: 25570
+
+# SERVER SELECTOR CONFIGURATION
+# For count players usage: {count_<server>}
+SERVER-SELECTOR-TITLE: "&cServer Selector"
+SERVER-SELECTOR-SIZE: 3
+SERVER-SELECTOR:
+  HCF:
+    NAME: "&c&lHCFaction"
+    ITEM:
+      GLOW: true
+      MATERIAL: "FISHING_ROD"
+      DATA: 0
+    SERVER: 'hcf'
+    QUEUE: true
+    SLOT: 12
+    LORE:
+      - ""
+      - "&fEdit this in config.yml"
+      - "&fPlayers&7: &c{count_hcf}"
+      - ""
+    EXECUTE-COMMAND:
+      ENABLE: false
+      COMMANDS:
+        - "example"
+        - "example 2"
+        - "example 3"
+  PRACTICE:
+    NAME: "&c&lPractice"
+    ITEM:
+      GLOW: true
+      MATERIAL: "POTION"
+      DATA: 16421
+    SERVER: 'practice'
+    QUEUE: true
+    SLOT: 14
+    LORE:
+      - ""
+      - "&fEdit this in config.yml"
+      - "&fPlayers&7: &c{count_practice}"
+      - ""
+    EXECUTE-COMMAND:
+      ENABLE: false
+      COMMANDS:
+        - "example"
+        - "example 2"
+        - "example 3"
+  KITMAP:
+    NAME: "&c&lKitMap"
+    ITEM:
+      GLOW: true
+      MATERIAL: "DIAMOND_SWORD"
+      DATA: 0
+    SERVER: 'kitmap'
+    QUEUE: true
+    SLOT: 16
+    LORE:
+      - ""
+      - "&fEdit this in config.yml"
+      - "&fPlayers&7: &c{count_kitmap}"
+      - ""
+    EXECUTE-COMMAND:
+      ENABLE: false
+      COMMANDS:
+        - "example"
+        - "example 2"
+        - "example 3"
+# LOBBY SELECTOR CONFIGURATION
+# For count players usage: {count_<server>}
+LOBBY-SELECTOR-TITLE: "&cLobby Selector"
+LOBBY-SELECTOR-SIZE: 3
+LOBBY-SELECTOR:
+  HUB-1:
+    NAME: "&c&lLobby-1"
+    ITEM:
+      GLOW: true
+      MATERIAL: "NETHER_STAR"
+      DATA: 0
+    SERVER: 'hub-1'
+    SLOT: 11
+    LORE:
+      - ""
+      - "&fEdit this in config.yml"
+      - "&fPlayers&7: &c{count_hub-1}"
+      - ""
+  HUB-2:
+    NAME: "&c&lLobby-2"
+    ITEM:
+      GLOW: true
+      MATERIAL: "NETHER_STAR"
+      DATA: 0
+    SERVER: 'hub-2'
+    SLOT: 12
+    LORE:
+      - ""
+      - "&fEdit this in config.yml"
+      - "&fPlayers&7: &c{count_hub-2}"
+      - ""

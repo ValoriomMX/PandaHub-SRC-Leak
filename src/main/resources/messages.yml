@@ -1,0 +1,56 @@
+# UTILS MESSAGES CONFIGURATION
+NO-PERMISSION: "&6You don't have permission to execute this command."
+NO-CONSOLE: "&6This command only execute by players."
+PLAYER-NOT-FOUND: "&6Player '&f{target}&6' not found."
+FILE-RELOAD: "&aAll files has been successfully reloaded."
+
+# NETWORK MESSAGES CONFIGURATION
+DISCORD:
+  - "&cDiscord&7: &f{discord}"
+STORE:
+  - "&cStore&7: &f{store}"
+TEAMSPEAK:
+  - "&cTeamspeak&7: &f{teamspeak}"
+TWITTER:
+  - "&cTwitter&7: &f{twitter}"
+WEBSITE:
+  - "&cWebsite&7: &f{website}"
+
+# HUB MESSAGES CONFIGURATION
+BLOCK-BREAK: "&cYou can't break blocks in the Hub."
+BLOCK-PLACE: "&cYou can't place blocks in the Hub."
+DROP-ITEM: "&cYou can't drop items in the Hub."
+PICKUP-ITEM: "&cYou can't pickup items in the Hub."
+PVP: "&cYou can't damage players in the Hub."
+DISABLE-CHAT: "&cChat is currently disabled."
+  
+# COMMANDS MESSAGES CONFIGURATION
+SPAWN:
+  SET: "&6Spawn location has been set to &f{x}, {y}, {z}&6."
+  NOT-SET: "&6Spawn location not found."
+  SPAWNED: "&6You has been teleported to spawn."
+FLY:
+  ENABLE:  "&6Your fly mode has been &aenable&6."
+  DISABLE: "&6Your fly mode has been &cdisable&6."
+BUILD:
+  ENABLE: "&6Your build mode has been &aenable&6."
+  DISABLE: "&6Your build mode has been &cdisable&6."
+HIDE-PLAYER: "&6Player visibility has been &cdisable&6."
+SHOW-PLAYER: "&6Player visibility has been &aenable&6."
+TELEPORT: "&6You has been teleported to &f{target}&6."
+TELEPORTHERE:
+  PLAYER: "&6You has been teleported &f{target} &6to your location."
+  TARGET: "&6You has been teleported to &f{player} &6location."
+TELEPORTALL: "&6You has been teleported all players to your location."
+GAMEMODE:
+  ALREADY: "&cYou're already in &f{gamemode}&c."
+  CHANGED: "&6Your game mode has changed to &f{gamemode}&6."
+PRIVATE-MESSAGE:
+  ENABLE: "&6Your private messages has been &aenable&6."
+  DISABLE: "&6Your private messages has been &cdisable&6."
+SCOREBOARD:
+  ENABLE: "&6Your scoreboard has been &aenable&6."
+  DISABLE: "&6Your scoreboard has been &cdisable&6."
+SOUND:
+  ENABLE: "&6Your sound message has been &aenable&6."
+  DISABLE: "&6Your sound message has been &cdisable&6."

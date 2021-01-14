@@ -1,0 +1,20 @@
+# Variables: {name}, {rank}, {rank-prefix}, {rank-suffix}, {date}, {time}, {online}, {slots}
+# You can use PlaceholderAPI variable.
+SCOREBOARD-TITLE: "&4&lPanda Community"
+SCOREBOARD:
+  - "&7&m---*-------------*---"
+  - "         &7(&f{date}&7)"
+  - ""
+  - " &c&lRank"
+  - " &7\u27A5 &f{rank-prefix}"
+  - ""
+  - " &c&lOnline"
+  - " &7\u27A5 &f{online}/{slots}"
+  - ""
+  - "{queue}"
+  - "             &f{time}"
+  - "&7&m---*-------------*---"
+QUEUE-SECTION:
+  - " &4&lQueue &7(&f{name}&7)"
+  - " &cPosition&7: &f{position}/{size}"
+  - ""
